@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/w3.css">
+         <link type="text/css" rel="stylesheet" href="css/myStyle.css">
+    </head>
+    <body style="postion:relative">
+        <div  style="position:absolute;top: 50%;left: 50%;margin-right: -50%;transform: translate(-50%,-50%)">
+            <form action="newCheckLogin" method="post">
+                <h1 style="text-align: center">Admin Login</h1>
+                <label for="email"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+
+                <input type="submit" value="Submit" > 
+            </form>
+            <p>Username = root </p>
+            <p>Password = root </p>
+        </div>
+    </body>
+</html>
