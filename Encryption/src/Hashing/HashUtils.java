@@ -47,7 +47,7 @@ public class HashUtils {
     public static void main(String[] args) throws Exception {
         byte[] salt = generateRandomSalt();
         System.out.println("Salt = " + salt);
-        String password = "adib123";
+        String password = "1";
         
         byte[] SHA2Password = createSHA2Hash(password,salt);
         System.out.println("SHA2Hash = " + SHA2Password);
